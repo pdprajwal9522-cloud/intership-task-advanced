@@ -1,0 +1,181 @@
+.container{
+    border: 2px solid gray;
+    height: 665px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding: 20px;
+    padding-top: 0px;
+    margin-inline: auto;
+}
+.nav{
+    flex:none;
+    display: flex;
+    
+    flex-direction: column;
+   }
+   
+.logo h2{
+
+    font-family: sans-serif;
+}
+.logo{
+    
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+}
+.box1{
+    flex: 3;
+    display: flex;
+    gap: 6px;
+
+}
+.box2{
+    flex:4;
+    display: flex;
+    gap:6px;
+}
+.box3{
+    flex:1;
+    
+}
+
+.box4{
+flex:3;
+border: 2px solid gray;
+display: flex;
+flex-direction: column;
+box-shadow: 0 0 2px;
+}
+.navbar{
+    display: flex;
+   justify-content: space-evenly;
+}
+.navbar a{
+    color: black;
+    text-decoration: none;
+}
+    
+    
+    
+
+
+.adspace{
+    flex:1;
+    border: 2px solid gray;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   box-shadow: 0 0 2px;
+    
+      
+}
+.rotater{
+    flex: 1.7;
+    border: 2px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 2px;
+}
+.featured{
+flex:1.44;
+border:2px solid gray ;
+display: flex;
+flex-direction: column;
+gap: 6px;
+box-shadow: 0 0 2px;
+
+
+
+}
+.simple{
+    flex:2.5;
+    border: 2px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 2px;
+}
+.child{
+    flex: 1;
+    border: 2px solid gray;
+    margin: 8px;
+}
+.textwrite{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box3{
+    display: flex;
+    gap: 6px;
+}
+.sponser{
+    flex: 0.49;
+    border: 2px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 2px;
+}
+.creative{
+    flex:0.85;
+    border: 2px solid gray;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     box-shadow: 0 0 2px;
+}
+
+.boxes{
+    flex:1.85;
+    
+    display: flex;
+    gap: 6px;
+    
+}
+.text{
+    
+    flex:1.15;
+    
+}
+.b1{
+    flex:auto;
+border: 2px solid gray;
+margin: 6px;
+}
+.b2{
+    flex:auto;
+    border: 2px solid gray;
+    margin: 6px;
+}
+
+.b3{
+    flex:auto;
+   border: 2px solid gray;
+    margin: 6px;
+}
+
+.b4{
+    flex:auto;
+    border: 2px solid gray;
+    margin: 6px;
+}
+
+.b5{
+    flex:auto;
+   border: 2px solid gray;
+    margin: 6px;
+}
+.text h5{
+    text-align: center;
+    font-family:arial, sans-serif;
+    font-size:medium
+}
+
+
+
+
