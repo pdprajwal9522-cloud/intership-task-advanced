@@ -1,9 +1,9 @@
-import './design1.css'
-
-function Design1(){
+import './design2.css'
+import playbutton from '../../assets/play-solid.png'
+function Design2(){
     return(
-<>
 
+<>
 <div className="container">
     <div className="nav">
 <div className="logo"><h2>LOGO</h2></div>
@@ -25,19 +25,14 @@ function Design1(){
     </div>
   
     <div className="box2">
-        <div className="featured">
-<div className="child"></div>
-        
-        <div className="textwrite"><h2>Featured <br></br>Child</h2></div>
-       </div>
-        <div className="simple"><h2>Simple Give Area</h2></div>
-    </div>
-    <div className="box3">
-        <div className="sponser"><h2>sponser</h2></div>
-        <div className="creative"><h2>Creative Ways to Give</h2></div>
-
-    </div>
-<div className="box4">
+        <div className="video">
+            <img src={playbutton} alt ="Playbutton" />
+            
+            
+        </div>
+        <div className="videotxt"><h2>video + Text</h2></div>
+        </div>
+<div className="box3">
     <div className="boxes">
         <div className="b1"></div>
         <div className="b2"></div>
@@ -52,9 +47,15 @@ function Design1(){
 
 </div>
 
+
+
+
 </>
+
+
+
     )
 }
 
 
-export default Design1
+export default Design2
