@@ -11,7 +11,7 @@ function Design5(){
 <div className="navbar">
     <a href = '#'>Home</a>
      <a href = '#'>Interface</a>
-      <a href = '#'>Interface</a>
+      
        <a href = '#'>Image 5/10-wir</a>
         <a href = '#'>Tips</a>
         <a href = '#'>Summary</a>

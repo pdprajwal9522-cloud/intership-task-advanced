@@ -1,8 +1,8 @@
-import './design6.css'
-function Design6(){
+import './design7.css'
+function Design7(){
     return(
-        <>
-        <div className="container">
+<>
+  <div className="container">
     <div className="nav">
 <div className="logo"><h2>LOGO</h2></div>
 
@@ -21,9 +21,18 @@ function Design6(){
         <div className="rotater"><h2>Rotator</h2></div>
     </div>
   
-    <div className="box2"><h2>Donation Info + Transaction </h2>
-        
+    <div className="child-section">
+
+        {[1,2,3,4,5,6,7,8].map((item) => (
+          <div className="card" key={item}>
+            <div className="image-box"></div>
+            <p>My Child Bio</p>
+          </div>
+        ))}
+
       </div>
+        
+    
       
      
         
@@ -42,9 +51,11 @@ function Design6(){
 
 </div>
 
-        
-        
-        </>
+
+
+</>
+
     )
 }
-export default Design6
+
+export default Design7
