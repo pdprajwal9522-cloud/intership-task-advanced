@@ -1,0 +1,163 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    border: 2px solid gray;
+    height: 640px;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-inline: auto;
+    box-shadow: 0 0 4px;
+    
+}
+.nav{
+    flex:none;
+    display: flex;
+    flex-direction: column;
+   }
+   
+.logo h2{
+
+    font-family: sans-serif;
+}
+.logo{
+    
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+   
+}
+.box1{
+    flex: 3;
+    display: flex;
+    gap: 6px;
+
+}
+.box2{
+  flex:5;
+  border: 2px solid gray;
+  box-shadow: 0 0 2px;
+  display: flex;
+    justify-content: center;
+   align-items: center
+}
+.box2 h2{
+    font-family: sans-serif;
+    font-weight: normal;
+   
+     
+}
+ 
+
+.box3{
+flex:3;
+border: 2px solid gray;
+display: flex;
+flex-direction: column;
+box-shadow: 0 0 2px;
+padding: 10px;
+gap: 30px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+   flex-wrap: wrap;
+}
+.navbar a{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+.adspace{
+    flex:1;
+    border: 2px solid gray;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   box-shadow: 0 0 2px;
+}
+.adspace h2{
+    font-family: sans-serif;
+font-weight: normal;
+}
+
+.rotater{
+    flex: 1.7;
+    border: 2px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 2px;
+}
+.rotater h2{
+    font-family: sans-serif;
+    font-weight: normal;
+}
+
+
+.boxes{
+    flex:1.85;
+    
+    display: flex;
+    gap: 6px;
+    
+}
+.text{
+    
+    flex:1;
+    
+    
+}
+.b1{
+    flex:auto;
+border: 2px solid gray;
+ gap: 6px;
+}
+.b2{
+    flex:auto;
+    border: 2px solid gray;
+     gap: 6px;
+}
+
+.b3{
+    flex:auto;
+   border: 2px solid gray;
+   gap: 6px;
+}
+
+.b4{
+    flex:auto;
+    border: 2px solid gray;
+    gap: 6px;
+}
+
+.b5{
+    flex:auto;
+   border: 2px solid gray;
+    gap: 6px;
+}
+.text h5{
+    
+    text-align: center;
+    font-family:arial, sans-serif;
+    font-size:large;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-content: center;
+    font-weight: lighter;
+}
+
+
+
+
+
