@@ -1,17 +1,21 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 .container{
     border: 2px solid gray;
-    height: 680px;
+    height: 640px;
     max-width: 500px;
     display: flex;
     flex-direction: column;
     gap: 6px;
     padding: 10px;
+    margin-top: 10px;
     margin-inline: auto;
+    box-shadow: 0 0 4px;
+    
 }
 .nav{
     flex:none;
@@ -28,6 +32,7 @@
     display: flex;
     justify-content: start;
     align-items: flex-start;
+   
 }
 .box1{
     flex: 3;
@@ -38,61 +43,97 @@
 .box2{
     flex:5;
     display: flex;
-    gap: 6px;
+gap: 6px;
    
 }
+ 
 .left{
-    flex:3;
+    flex: 3.5;
     border: 2px solid gray;
-    display: flex;
-    flex-direction: column;
-    
-    padding: 8px;
-    gap: 10px;
+    padding: 10px;
     box-shadow: 0 0 2px;
+  
+}
+.left-top{
+    flex:1.75;
+    display: flex;
+    gap: 6px;
+ 
     
 }
-.top-graphic{
-flex:0.4;
+.left-top-graphic{
+    flex-basis: 110px;
+    aspect-ratio: 3/2;
 border: 2px solid gray;
-display:flex;
+background-color: gainsboro;
+
+}
+.top-graphic{
+flex:1;
+display: flex;
 align-items: center;
 justify-content: center;
-background-color:gainsboro;
 
 }
 .top-graphic h2{
     font-family: sans-serif;
-    font-weight: normal;
+    font-weight: normal
 }
-.text-1 h4{
+.text-top{
+    flex:0.2;
+    
+    padding: 5px;
+}
+.text-top h5{
     font-family: sans-serif;
-font-weight: bold;
-font-size: small;
+}
 
-
-
+.left-bottom{
+    flex: 1.75;
+    display: flex;
+    gap: 6px;
+    
+    
+}
+.left-bottom-graphic{
+   flex-basis: 110px;
+   aspect-ratio: 3/2;
+border: 2px solid gray;
+background-color: gainsboro;
 }
 .bottom-graphic{
-    flex:0.4;
-    border: 2px solid gray;
-    display:flex;
+flex:1;
+display: flex;
 align-items: center;
 justify-content: center;
-background-color:gainsboro;
+
+
 }
 .bottom-graphic h2{
     font-family: sans-serif;
-    font-weight: normal;
+    font-weight: normal
 }
+.text-bottom{
+     flex:0.2;
+
+    padding: 5px;
+}
+.text-bottom h5{
+    font-family: sans-serif;
+}
+
+
+
+
 .right{
-    flex: 2;
+    flex: 1.5;
     border: 2px solid gray;
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: center;
     box-shadow: 0 0 2px;
+    padding: 10px;
     
     }
 .right h3{
@@ -102,6 +143,7 @@ background-color:gainsboro;
 .calender{
    border-collapse:collapse;
     margin: auto;   
+    
 }
 .calender td{
     width: 28px;
