@@ -1,8 +1,8 @@
-import './design7.css'
-function Design7(){
-    return(
-<>
-  <div className="container">
+import './design8.css'
+function Design8(){
+return(
+    <>
+   <div className="container">
     <div className="nav">
 <div className="logo"><h2>LOGO</h2></div>
 
@@ -21,18 +21,9 @@ function Design7(){
         <div className="rotater"><h2>Rotator</h2></div>
     </div>
   
-    <div className="child-section">
-
-        {[1,2,3,4,5,6,7,8].map((item) => (
-          <div className="card" key={item}>
-            <div className="image-box"></div>
-            <p>My Child Bio</p>
-          </div>
-        ))}
-
-      </div>
+    <div className="box2"><h2>Contact Info + Form </h2>
         
-
+      </div>
       
      
         
@@ -50,12 +41,12 @@ function Design7(){
 
 
 </div>
+   
+    
+    
+    </>
+)
 
-
-
-</>
-
-    )
 }
 
-export default Design7
+export default Design8

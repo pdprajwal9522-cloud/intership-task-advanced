@@ -40,32 +40,20 @@
     gap: 6px;
 
 }
-.child-section{
+.box2{
+  flex:5;
   border: 2px solid gray;
   box-shadow: 0 0 2px;
-
-  padding: 10px;
-
-  display: grid;
-  grid-template-columns: repeat(4,1fr);
-
-  gap: 30px;
-  margin-bottom: 20px;
+  display: flex;
+    justify-content: center;
+   align-items: center
 }
-
-.card{
-  text-align: center;
-  font-family: sans-serif;
-font-size: 14px;
+.box2 h2{
+    font-family: sans-serif;
+    font-weight: normal;
+   
+     
 }
-
-.image-box{
-  height: 60px;
-  background: lightgray;
-  margin-bottom: 10px;
-}
-
-
  
 
 .box3{
